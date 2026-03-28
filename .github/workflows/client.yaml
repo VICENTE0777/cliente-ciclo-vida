@@ -2,7 +2,7 @@ on: [push]
 
 jobs:
   deploy:
-    uses: VICENTE0777/proveedor-ciclo.vida.sofware/.github/workflows/deploy-api.yaml@pipeTest
+    uses: VICENTE0777/proveedor-ciclo.vida.sofware/.github/workflows/deploy-api.yaml@main
 
     secrets:
       DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
